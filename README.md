@@ -15,5 +15,12 @@ To crate your first project, create an empty directory and use the following:
 `pulumi new <YOUR STACK OPTIONS>`.
 
 For my first attempt, I'm using:
-`pulumi new kubernetes-javascript`
+`pulumi new aws-javascript`
 
+## Milestone 1
+1. EC2 instance running
+2. Have s3 bucket
+3. HTTP Requst to instance returns file from S3 bucket
+
+## Milestone 2
+1. Add a load balancer to provision more EC2 instances as neccessary
